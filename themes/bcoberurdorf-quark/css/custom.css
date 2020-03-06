@@ -1,0 +1,219 @@
+/* limit the width of the page */
+
+@media (min-width: 1020px) {
+    body {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+
+#start,
+#header,
+#footer {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* typography */
+
+h1, .h1 {
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: .8rem;
+}
+
+
+#start ul {
+  margin-left: 0;
+  padding-left: 1em;
+  list-style-type: none;
+}
+
+#start ul > li:before {
+  content: "–";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* override the quark's defaults */
+
+.modular-text {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+section.bg-gray {
+  background: transparent !important;
+}
+
+#footer,
+#footer .container {
+  padding-left:0;
+  padding-right:0;
+}
+#footer p {
+  text-align:left;
+}
+
+/* a nicer mobile navigation */
+
+.overlay {
+  background: #eeeeee;
+}
+
+/* trying to get the closing cross to be black */
+.mobile-menu .button_container span, 
+.mobile-menu .button_container.active .top,
+.mobile-menu .button_container.active .bottom {
+  background: black;
+}
+
+.treemenu li {
+  background: transparent;
+}
+
+.treemenu li a {
+  color: black;
+}
+
+.treemenu li a.active {
+  color: darkgray !important;
+}
+
+.treemenu li.tree-empty > .toggler:before {
+  content: " ";
+}
+
+/* better navigation */
+
+.navbar {
+  font-weight: normal;
+  font-size: .9rem;
+}
+
+.dropmenu ul li a {
+}
+
+.dropmenu ul li a.active,
+.dropmenu ul li a:focus,
+.dropmenu ul li a:hover {
+  color: #e08345 !important;
+}
+
+/* reset the wrong z-index from the page slider */
+
+.lSSlideWrapper .lSFade > * {
+  z-index: 10 /* 9 */;
+}
+
+.lSSlideWrapper .lSFade > *.active {
+  z-index: 11 /* 10 */;
+}
+
+.lSSlideOuter .lSPager.lSpg > li a {
+  z-index: 12 /* 99 */;
+}
+
+.lSAction > a {
+  z-index: 13 /* 99 */;
+}
+
+/* reset the z-index from the nav */
+
+.mobile-container {
+  z-index: 14 /* 2 */;
+}
+
+.mobile-menu {
+  z-index: 15 /* 3 */;
+}
+
+.mobile-menu .button_container {
+  z-index: 16 /* 100 */;
+}
+
+.overlay-light, .overlay-dark, .overlay-light-gradient, .overlay-dark-gradient {
+  z-index: 0 /* 0 */;
+}
+
+/* setup the home page slider */
+
+body.page-home div.grav-lightslider h2 {
+  color:white;
+  background-color: #9cc03a;
+  padding:10px 15px;
+  border-radius: 15px 0 15px 0;
+  display:inline-block;
+  font-size:25px;
+}
+
+body.page-home div.grav-lightslider p
+{
+  color:#4a463b;
+  background-color:#ebe8de;
+  padding:10px 15px;
+  margin-bottom: .8em;
+  border-radius: 5px;
+  display:table; /* fit to the width of content */
+}
+
+body.page-home div.grav-lightslider p.button {
+  border-color: #9cc03a;
+  background-color: #9cc03a;
+}
+
+body.page-home div.grav-lightslider p.button a {
+  color: white;
+}
+
+/* styling the events bar */
+
+.schedule_next {
+  background-color: #b5db4f;
+  padding: 10px 0px 10px 50px;
+  vertical-align: middle;
+}
+.schedule_next .date {
+  margin-right:10px;
+  display: inline-block;
+  padding: 2px 10px;
+  border: 1px solid #e5ca2b;
+  border-radius: 0 10px 0 10px;
+  text-align:center;
+}
+
+.schedule_next .date.scheduled {
+  background-color: #9cc03a; /* green */
+}
+
+.schedule_next .date.cancelled {
+  background-color: #e08345; /* red */
+}
+
+.schedule_next .date .day {
+  color: white;
+  display: block;
+}
+
+.schedule_next .date .month {
+  color: white;
+  display: block;
+  font-size: 0.6rem;
+}
+
+.schedule_next .label {
+  color: white;
+  background-color: transparent;
+  display: inline-block;
+  text-transform: none;
+  font-size: 0.9rem;
+  margin-right:20px;
+}

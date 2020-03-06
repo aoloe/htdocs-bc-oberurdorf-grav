@@ -1,0 +1,12 @@
+streams:
+ schemes:
+   theme:
+     type: ReadOnlyStream
+     prefixes:
+       '':
+         - user/themes/bcoberurdorf-quark
+         - user/themes/quark
+custom_logo:
+  - name: 'bcoberurdorf.png'
+custom_logo_mobile:
+  - name: 'bcoberurdorf.png'
