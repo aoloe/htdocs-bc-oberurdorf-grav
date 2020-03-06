@@ -1,0 +1,55 @@
+absolute_urls: false
+custom_base_url: 'http://bc-oberurdorf.ch'
+
+session:
+  path: /
+
+home:
+  alias: '/home'
+
+pages:
+  theme: bcoberurdorf-quark
+  markdown:
+    extra: false
+  process:
+    markdown: true
+    twig: false
+
+cache:
+  enabled: false
+  check:
+    method: file
+  driver: auto
+  prefix: 'g'
+
+twig:
+  cache: false
+  debug: true
+  auto_reload: true
+  autoescape: false
+
+assets:
+  css_pipeline: false
+  css_minify: true
+  css_rewrite: true
+  js_pipeline: false
+  js_minify: true
+
+errors:
+  display: true
+  log: true
+
+debugger:
+  enabled: true
+  twig: true
+  shutdown:
+    close_connection: false
+gpm:
+  releases: stable
+  verify_peer: true
+
+languages:
+  translations: true
+  supported:
+    - de
+  include_default_lang: false

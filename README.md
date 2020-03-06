@@ -1,7 +1,28 @@
 # Grav for bc-oberurdorf.ch
 
+This is a metarepository for the Grav based website for the BC Oberurdorf.
+
+For a full install you need:
+
+- Grav
+- the `bcoberurdorf-quark` theme
+- the following plugins
+  - lightslider (standard plugin)
+  - events-ics (my github)
+  - events-schedule (my github)
+
 - Basic install as of impagina.org (i should take it out of there)
-- create a `events-schedule` plugin
+
+## Setup
+
+- download Grav and put it in the `grav` directory at the root of the web server.
+- remove the `grav/user/` directory
+- get <https://github.com/aoloe/htdocs-bc-oberurdorf-grav> as `grav/user/`
+- create the `grav/user/config/security.yaml` file and fill fill the salt value
+- create the `accounts/`, `plugins/`, and `themes/` directory
+
+- add the `events-schedule` plugin
+- add the `events-ics` plugin, copy it's `events-ics.yaml` to `user/config/plugins/` and customize the `route` to `bc-oberurdorf.ics`.
 
 ## Creating the `events-schedule` plugin
 
@@ -42,5 +63,5 @@
   - https://github.com/getgrav/grav-plugin-lightslider/issues/34
 - [ ] add a link for maps: `geo:0,0?q=my+street+address` where 0s are lat and long (https://en.wikipedia.org/wiki/Geo_URI_scheme)
 - [ ] write the text for the Schnuppertrainng
-- [ ] write the footer.
-- [ ] create the ical: we will probably move it from /bc-oberurdorf.ics to /programm/bc-oberurdorf.ics
+- [x] write the footer.
+- [x] create the ical

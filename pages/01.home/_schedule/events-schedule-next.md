@@ -1,0 +1,4 @@
+---
+events-schedule:
+  active: true
+---
