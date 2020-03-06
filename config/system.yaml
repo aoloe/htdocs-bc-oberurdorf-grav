@@ -24,7 +24,7 @@ cache:
 
 twig:
   cache: false
-  debug: true
+  debug: false
   auto_reload: true
   autoescape: false
 
@@ -40,8 +40,8 @@ errors:
   log: true
 
 debugger:
-  enabled: true
-  twig: true
+  enabled: false
+  twig: false
   shutdown:
     close_connection: false
 gpm:

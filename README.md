@@ -20,8 +20,16 @@ For a full install you need:
 - get <https://github.com/aoloe/htdocs-bc-oberurdorf-grav> as `grav/user/`
 - create the `grav/user/config/security.yaml` file and fill fill the salt value
 - create the `accounts/`, `plugins/`, and `themes/` directory
+- add the quark theme with: `./bin/gpm install quark`
+- add the lightslider plugin with: `./bin/gpm install lightslider`
+- in `grav/user/plugins/` add the `events-schedule` plugin from Github:  
+  `git clone https://github.com/aoloe/grav-plugin-events-schedule events-schedule`
+- in `grav/user/plugins/` add the `events-ics` plugin from Github:  
+  `git clone https://github.com/aoloe/grav-plugin-events-ics events-ics`
 
-- add the `events-schedule` plugin
+
+Using the `events-ics` and `events-schedule plugins:
+
 - add the `events-ics` plugin, copy it's `events-ics.yaml` to `user/config/plugins/` and customize the `route` to `bc-oberurdorf.ics`.
 
 ## Creating the `events-schedule` plugin
