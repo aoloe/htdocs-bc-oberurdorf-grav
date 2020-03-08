@@ -26,6 +26,8 @@ For a full install you need:
   `git clone https://github.com/aoloe/grav-plugin-events-schedule events-schedule`
 - in `grav/user/plugins/` add the `events-ics` plugin from Github:  
   `git clone https://github.com/aoloe/grav-plugin-events-ics events-ics`
+- in `grav/user/themes/` add the `events-ics` plugin from Github:  
+  `git clone https://github.com/aoloe/grav-plugin-events-ics events-ics`
 
 
 Using the `events-ics` and `events-schedule plugins:
