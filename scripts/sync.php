@@ -41,4 +41,9 @@ resources:
 // print_r($data);
 // file_put_contents("json.txt", json_encode($data));
 
-shell_exec( 'cd .. && git reset --hard HEAD && git pull' );
+$output = shell_exec( 'cd ../grav/user/ && git reset --hard HEAD && git pull' );
+// echo('1<pre>'.print_r($output, 1).'</pre>');
+$output = shell_exec( 'cd ../grav/user/plugins/events-ics && git reset --hard HEAD && git pull' );
+// echo('2<pre>'.print_r($output, 1).'</pre>');
+$output = shell_exec( 'cd ../grav/user/plugins/events-schedule/ && git reset --hard HEAD && git pull' );
+// echo('3<pre>'.print_r($output, 1).'</pre>');
