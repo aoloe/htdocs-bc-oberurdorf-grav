@@ -1,2 +1,5 @@
 enabled: true
 route: /bc-oberurdorf.ics
+default:
+    name: Badminton Oberurdorf
+    description: Badminton Oberurdorf

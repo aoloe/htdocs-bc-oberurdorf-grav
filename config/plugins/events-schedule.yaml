@@ -1,7 +1,7 @@
 enabled: true
 default:
-    label: Training
-    start: 20:00
-    end: 21:45
+    label: Freies Spiel
+    start: 19:30
+    end: 22:30
     location: Kanti Urdorf
     url: http://bc-oberurdorf.ch/programm
