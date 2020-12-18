@@ -442,16 +442,20 @@
 - date: 20201204
 - date: 20201211
 - date: 20201218
+  label: Coronaferien
 - date: 20201225
   label: Weihnachtsferien
 - date: 20210101
   label: Weihnachtsferien
 - date: 20210108
+  label: Coronaferien
 - date: 20210114
   event: true
   label: Generalversammlung
 - date: 20210115
+  label: Coronaferien
 - date: 20210122
+  label: Coronaferien
 - date: 20210129
 - date: 20210205
 - date: 20210212
