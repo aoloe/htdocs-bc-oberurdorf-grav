@@ -10,7 +10,7 @@ Silvan Weber
 
 Markus Hogenschurz  
 Tel. 079 433 91 28  
-[markus.hogenschurz@hispeed.ch](mailto:markus.hogenschurz@hispeed.ch)
+[markus.hogenschurz@hispeed.ch](mailto:markus.hogenschurz@bluewin.ch)
 
 Curzio Bertozzi  
 Tel. 079 366 33 03  
