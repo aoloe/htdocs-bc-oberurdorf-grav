@@ -10,7 +10,7 @@ Silvan Weber
 
 Markus Hogenschurz  
 Tel. 079 433 91 28  
-[m.hogenschurz@bluewin.ch](mailto:m.hogenschurz@bluewin.ch}
+[m.hogenschurz@bluewin.ch](mailto:m.hogenschurz@bluewin.ch)
 
 Curzio Bertozzi  
 Tel. 079 366 33 03  
