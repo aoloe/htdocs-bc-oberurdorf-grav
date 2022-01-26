@@ -11,9 +11,6 @@ Der Jahresbeitrag als Aktivmitglied beträgt CHF 140.00.
 Wenn Du jeden der ca. 40 Abende pro Jahr spielen gehst, zahlst Du genau Fr. 3.50 für knapp drei Stunden Spielzeit.
 
 
-
-
-
 Du kannst die [Beitrittserklärung ausdrucken](bc_oberurdorf_beitritt.pdf) und uns schicken.
 
 Oder ganz einfach folgende Informationen per Email an [Markus Hogenschurz](markus.hogenschurz@hispeed.ch) schicken:
