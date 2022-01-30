@@ -6,4 +6,4 @@ Wir sind eine gemischte Gruppe, Frauen und Männer, von 20-Jährigen bis Mittfü
 
 Mitmachen kannst Du bei uns, sobald Du 18 Jahre alt bist. Vorkenntnisse brauchst Du nicht, es gilt Learning by doing.
 
-Interessiert? Komm einfach [vorbei](../../schnuppertraining), frage nach Silvan, Markus oder Curzio!
+Interessiert? Komm einfach [vorbei](../../schnuppertraining), frage nach Silvan oder Alexander!
