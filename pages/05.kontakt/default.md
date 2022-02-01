@@ -13,5 +13,5 @@ Alexander Schnittert, Aktuar
 [alexander.schnittert@outlook.com](mailto:alexander.schnittert@outlook.com)  
 078 949 22 21
 
-Sandra Weber, Kassiererin  
+Sandra Weber, Kassierin  
 [sandra.weber@bc-oberurdorf.ch](mailto:sandra.weber@bc-oberurdorf.ch)
