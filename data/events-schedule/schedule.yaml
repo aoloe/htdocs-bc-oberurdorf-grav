@@ -521,6 +521,9 @@
 - date: 20220624
 - date: 20220701
 - date: 20220708
+- date: 20220709
+  event: true
+  label: Sommeranlass
 - date: 20220715
 - date: 20220722
   label: Sommerferien
@@ -557,6 +560,9 @@
 - date: 20230106
   label: Weihnachtsferien
 - date: 20230113
+- date: 20230119
+  event: true
+  label: Generalversammlung
 - date: 20230120
 - date: 20230127
 - date: 20230203
