@@ -1,5 +1,5 @@
 absolute_urls: false
-custom_base_url: 'http://bc-oberurdorf.ch'
+custom_base_url: 'https://bc-oberurdorf.ch'
 
 session:
   path: /
