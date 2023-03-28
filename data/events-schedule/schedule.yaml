@@ -579,13 +579,13 @@
 - date: 20230324
 - date: 20230331
 - date: 20230407
-- date: 20230414
   label: Karfreitag
+- date: 20230414
 - date: 20230421
-  label: Frühlingsferien
 - date: 20230428
   label: Frühlingsferien
 - date: 20230505
+  label: Frühlingsferien
 - date: 20230512
 - date: 20230519
   label: Kein Spiel
