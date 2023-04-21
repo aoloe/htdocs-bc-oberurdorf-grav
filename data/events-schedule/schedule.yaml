@@ -591,6 +591,9 @@
   label: Kein Spiel (Auffahrt)
 - date: 20230526
 - date: 20230602
+- date: 20230603
+  event: true
+  label: Jubiläumsanlass
 - date: 20230609
   label: Kein Spiel (Völknight)
 - date: 20230616
