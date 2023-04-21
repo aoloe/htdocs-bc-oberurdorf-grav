@@ -588,10 +588,11 @@
   label: Frühlingsferien
 - date: 20230512
 - date: 20230519
-  label: Kein Spiel
+  label: Kein Spiel (Auffahrt)
 - date: 20230526
 - date: 20230602
 - date: 20230609
+  label: Kein Spiel (Völknight)
 - date: 20230616
 - date: 20230623
 - date: 20230630
